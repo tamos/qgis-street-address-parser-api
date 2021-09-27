@@ -1,3 +1,4 @@
+-f https://download.pytorch.org/whl/torch/
 aniso8601==9.0.1
 bpemb==0.3.3
 certifi==2021.5.30
@@ -24,7 +25,7 @@ scipy==1.7.1
 sentencepiece==0.1.96
 six==1.16.0
 smart-open==5.2.1
-torch==1.9.1+cpu
+torch==1.9.0+cpu
 tqdm==4.62.3
 typing-extensions==3.10.0.2
 urllib3==1.26.7
