@@ -9,7 +9,7 @@ setup(name='street_address_parser_api',
       author_email='tyler.amos@alumni.carleton.ca',
       license='GPLv3',
       zip_safe=False,
-      install_requires=['torch', 'deepparse'],
+      install_requires=['torch', 'deepparse', 'flask', 'flask_restful'],
       entry_points = {
           'console_scripts': ['street_address_parser_api=street_address_parser.api:main'],
       })
