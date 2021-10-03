@@ -11,5 +11,5 @@ setup(name='street_address_parser_api',
       zip_safe=False,
       install_requires=['torch', 'deepparse', 'flask', 'flask_restful'],
       entry_points = {
-          'console_scripts': ['street_address_parser_api=street_address_parser.api:main'],
+          'console_scripts': ['street_address_parser_api=street_address_parser_api.api:main'],
       })
