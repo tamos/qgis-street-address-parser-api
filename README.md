@@ -12,10 +12,12 @@ Simple API that runs deepparse.org's address parser model as a REST API via flas
 
   `source env_api/bin/activate`
 
-  `pip install torch deeparse`
+  `pip install pipx`
+
+  `pipx install git+https://github.com/tamos/qgis-street-address-parser-api.git`
 
 2. Run the api locally.
 
-  `python3 wsgi.py`
+  `street_address_parser_api`
 
-3. Copy the server location into the appropriate box in the plugin dialog.
+3. Copy the server location into the appropriate box in the plugin dialog, if necessary.
